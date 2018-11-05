@@ -3,4 +3,5 @@ Rails.application.routes.draw do
     # nested resource for songs
     resources :songs, only: [:show, :index]
   end
+  resources :songs
 end
