@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :authors, only: [:show] do
+  resources :artists, only: [:show] do
     # nested resource for songs
     resources :songs, only: [:show, :index]
   end
